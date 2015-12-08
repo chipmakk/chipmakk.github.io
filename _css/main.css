@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+/*Google Maps style*/
+#map {
+        width: 450px;
+        height: 350px;
+              }
+/*resets elements*/
+html, body, div, section, article, aside, header,nav, h1, h2, h3, h4, p, blockquote, img, ol, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/*link styles*/
+a {
+	text-decoration: none;
+	color: #006699;
+}
+a:hover {
+	color: #339900;
+}
+
+/*html5 display assist*/
+address, article, aside, canvas, details, figcaption, figure, header, nav, section {
+	display: block;
+}
+/*background margin color*/
+html {
+	background-color: #ddd;
+}
+
+body {
+	font: 100% Georgia, "Times New Roman", Times, serif;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0 50px;
+	position: relative;
+	background: white;
+}
+
+
+
+/* Title Image position */
+.titleimage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+/* First main header Height */
+.mainHeader {
+	height: 525px;
+}
+
+/* HTML main element constraints*/
+main {
+	float: left;
+	width: 600px;
+	padding: 0 10px 0 25px;
+	margin-bottom: 2em;
+}
+
+
+/*general footer constaint*/
+footer {
+	clear: both;
+	overflow: auto;
+}
+
+/*SML Title  */
+h1  {
+	font-size: 3.85em;
+	color: #7f7f7f;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: underline;
+}
+.activityheader {
+	margin-top:20px;
+}
+
+/*Navigation Bar/ Links*/
+
+ .actlist      {
+  	background-color: none;
+  	text-align: center;
+   	display: block-inline;
+   	margin-top: 2px;
+  	margin-left: 175px ;
+  	padding: 0;
+  	
+	
+}
+
+  li   {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	color: #000;
+	border: 1px solid ;
+ 	border-radius: 10px;
+  	text-align: center;
+  	display: block-inline;
+  	float: left; 
+  	margin-right: 50px;	
+  	list-style-type:none;
+  }
+
+
+/*Activities Styles*/
+main {
+	border-right: 1px solid #7f7f7f;
+}
+
+main header a {
+	color: #cb7d20;
+}
+main header a:hover {
+	color:#952
+}
+main header h2 {
+	font-weight: normal;
+	font-size: 2.2em;
+	margin-top: -1em;
+	text-align: center;
+	text-decoration: underline;
+}
+/* Article h3 style*/
+main article h3 {
+	font-weight: normal;
+	color: #7f7f7f;
+	font-size: 2em;
+	margin-bottom: .2em;
+}
+
+/*caption style*/
+main figcaption {
+	text-transform: uppercase;
+	color: #4d4d4d;
+	font-size: 1.2em;
+}
+
+/* main paragraph formating*/
+main p {
+	color: black;
+	line-height: 1.6;
+	margin-bottom: 1em;
+}
+/*main image style*/
+main img{
+	display: block;
+}
+
+/* h4 style*/
+main h4 {
+	font-size: 1em;
+	margin-top: 1.2em;
+	margin-bottom: 0;
+	color: #000;
+}
+
+main footer.articleFooter {
+	background: #e1d8b9;
+}
+
+/*RIGHT COLLUMN -->Lake info..*/
+section.lakeinfo {
+	float: right;
+	clear: right;
+	width: 450px;
+	margin-bottom: 0;
+}
+
+
+
+/* h2 right collumn*/
+.lakeinfo h2{
+	font-size: 2.2em;
+	font-weight: normal;
+	color: black;
+	margin-top: -1em;
+	text-decoration: underline;
+	text-align: center;	
+
+}
+
+/*article right collumn*/
+section,article .lakeinfo    {
+	line-height: 1.4;
+	color: blue;
+	margin-bottom:.5em;
+}
+
+/*h3 right collumn*/
+.lakeinfo h3{
+	
+	font-weight: normal;
+	color: #7f7f7f;
+	font-size: 2em;
+	margin-bottom: .2em;
+
+}
+/*paragraph right collumn*/
+.lakeinfo p{
+	color: black;
+	line-height: 1.6;
+	margin-bottom: 1em;
+}
+
+/*Marina Table Style*/
+.lakeinfo table {
+		background-color: #339CC ;
+		border:25px;
+		border-color: black;
+		border-radius: 5px;
+		border-collapse: collapse;
+	}
+	/*Aerial image */
+	.smlfall{
+		width:475px;
+		height:275px;
+	}
+	figcaption.fallcaption {
+		text-transform: uppercase;
+		color: #CC6600;
+		font-size: 1.2em;
+	}
+
+

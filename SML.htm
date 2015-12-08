@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Smith Mountain Lake</title>
+<meta name="description" content="Cycle Tracks trail reviews give you the inside scoop on the best biking trails around">
+<link href="_css/main.css" rel="stylesheet" media="screen">
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(37.0411, -79.5353),
+          zoom: 10,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+<!-- Adds HTML5 element support for earlier versions of IE -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+</head>
+<body>
+
+<header class="mainHeader">
+  <h1>Smith Mountian Lake</h1>
+  	<img class ="titleimage" src="_images/dam.jpg" alt="SML Damn">
+  
+  <nav class="activitynav">
+      <ul class="actlist">
+      
+      <li><a href="#fishing" title="Read our blog!">Fishing</a></li>
+      <li><a href="#boating" title="Trail reviews" class="current">Boating</a></li>
+      <li><a href="#watersports" title="Trail news">Water Sports</a></li>
+      <li><a href="#places" title="Biking Tours">Places to Visit</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+
+<main class=".activities">
+  <header>
+    <h2>Activities</h2>
+    
+  </header>
+  <article>
+    <header>
+    	
+      <h3 id="fishing">Fishing</h3>
+      
+      
+    </header>
+    
+    <p>There arll types of great fishiing opptunities avaiable at Smith Mouatian Lake. The most popular specises fished in the all year around is the Largemouth Bass. These fish can be caught on almost any artifical bait depending on the water conditions and weather. Smith Mountain Lake has consistently produced and large number of bass and has alos been the home to ESPNs Bassmaster Elite series tournment for several years.  Striped Bass is another sought after fish in this resorivor. They were introduced in 1963 and are frequently stocked to matian their population becasue the their habatit only allows for limited spawning. Channel and Flathead catfish are also abundent throught the lake, many anglers will fish after dusk for catfish. </p>
+    
+    <figure>
+      <figcaption>Striped Bass Caught at SML</figcaption>
+      <img class="stripedbass" src="_images/stripedbass.jpg" alt="Striped Bass caught at SML" title="Striped Bass"> 
+	 </figure>
+	
+    <h4>Regulations</h4>
+    <p>Virginia residents and out of state residents must have a vaild Virginia fishing license to fish in these waters. Which can be obtained by visiting the Virginia Department of Game and Inland Fisheries website: <a href="http://www.dgif.virginia.gov/licenses/">VDGIF Site</a> Also there are bag limits on fish that can be kept check out the following link to stay up to date with the current catch limits at SML:<a href="http://www.dgif.virginia.gov/fishing/waterbodies/display.asp?id=122&amp;section=regulations">Catch Limits</a> </p>
+    </article>
+    <article>
+    <header>
+    	
+    <h3 id="boating"> Boating </h3>
+    </header>
+		<p>Boating is among one of the highest attractions on this lake. SML is a 20,600-acre lake that can generously accommodate a large amount of boat traffic. Weather you would like to bring your yacht or jet ski either is acceptable. A wide variety of watercraft are in use at SML. They range from sailboats, cabin cruisers, wakeboard boats, john boats, center console fishing rigs, bass boats, personal water crafts and occasionally you will spot a classic Jet Ski. There are also various rental locations on the water. They usually rent out jet ski's, boats, and watersports equipment.  </p>
+
+		<h4> Restrictions</h4>
+		<p>There is no horsepower limit at SML. A Virginia boaters saftey course must be completed by all PWC operaters and motorboat operaters must complete a course depending on their age. </p>
+		<table>
+			<tr> 
+				<td></td>
+				<td></td>
+
+			</tr>	
+
+		</table>
+    </article>
+    
+    <article>
+    <header>
+    	
+    <h3 id="watersports"> Water Sports</h3>
+       </header>
+     <p>Many vacationaors and visitors pratcipate in watersports while on the lake. Wakeboaring, sking, tubing, and wake surfing are among the most popular watersports.  </p>
+       </article>	
+    
+    <article>
+    <header>
+    	
+    <h3 id="places"> Places to Visit</h3>
+       </header>
+     <p>Places to visit while in the SML area include the Dam, SML State Park, SML Beach attraction, D-day Memorial and the Booker T National Monument.   </p>
+       </article>	
+
+
+
+
+    <footer class="articleFooter">
+     
+    </footer>
+    
+</main>
+<!--Ending of Activities main left column -->
+
+<!--Start of Right column-->
+
+<section class="lakeinfo">
+  <h2>Lake Infomation</h2>
+  <article>
+    <header>
+      <h3>Google Map</h3>     
+    </header>
+    
+	<div id="map"></div>
+	
+    
+    </article>
+	<br><br>
+    <header>
+    	<h3>Marinas</h3>
+    </header>
+    <p>Here a Smith Mouatian Lake there are tons of marinas to suit any weekenders needs. The vast majority of these marinas are public. They supply ameties such as gas stations, restruants, shopping centers, and much more. Below is a list of the well known marinias.</p>
+	
+    <table>
+    	<tr>
+     	<td>Bridgewater Plaza </td>
+     	<td>Crystal Shores<td>
+     	</tr>
+     	<tr>
+     	<td>Indian Point</td>
+     	<td>Jakes Place</td>
+     	<td></td>
+     	</tr>
+     	<tr>
+     	<td>Captin Quarters</td>
+     	<td>Websters</td>
+     	<td></td>
+     	</tr>
+     	<tr>
+     	<td>Parkway</td>
+     	<td>Parrot Cove</td>
+     	<td></td>
+     	</tr>
+     	<tr>
+     	<td>Crazy Horse</td>
+     	<td>Pelican Point Yacht Club </td>
+     	<td></td>
+     	</tr>
+     	<tr>
+     	<td>Bay Side </td>
+     	<td>Saunders</td>
+     	<td></td>
+     	</tr>
+     	<tr>
+     	<td>Water Wheel</td>
+     	<td>Giles Creek</td>
+		<td></td>	
+     	</tr>
+    </table>
+	<header>
+	<h3>Annual Events</h3>
+	</header>
+	<figure>
+      <figcaption class="fallcaption">Aerial View of SML in the Fall</figcaption>
+      <img class="smlfall" src="_images/skyshot.jpg" alt="Aerial View of SML in the Fall" title="SML Fall"> 
+	 </figure>
+	<p> There are many events that take place all year around either on the water or close by. Many of these events are family friendly. 
+	<table>
+    	<tr>
+     	<td>Poker Run </td>
+     	<td>Pirate Days<td>
+     	</tr>
+     	<tr>
+     	<td>4th of July Fireworks</td>
+     	<td>Antique and Classic Boat Show</td>
+     	<td></td>
+     	</tr>
+     	<tr>
+     	<td>Lake Fest SML Benards Landing Resort</td>
+     	<td>SML Oktoberfest</td>
+     	<td></td>
+     	</tr>
+     	<tr>
+     	<td>Bridgewater Fall Fest</td>
+     	<td>Wak the World</td>
+     	<td></td>
+     	</tr>
+         </table>
+    <header>
+    <h3>Off the Water</h3>
+    </header>
+        <p>There are many activities here around the lake that are just as exciting as being out on the water. These activities include visiting historical sites, hiking, biking and other outdoor activites.  </p>
+</section>
+
+
+
+<footer id="pageFooter">
+  
+</footer>
+</body>
+</html>
